@@ -1,0 +1,501 @@
+
+*{
+    padding:0;
+    margin: 0;
+   box-sizing: border-box;
+   overflow-x: hidden !important;
+}
+@font-face {
+
+    font-family: "Open";
+    src: url("/fonts/fontawesome-webfont.ttf") format("ttf"),
+         url("/fonts/fontawesome-webfont.woff") format("woff");
+         
+}
+
+
+.header-container
+{
+    position: absolute;
+    width: 100%;
+    background-color:transparent;
+    padding: 1rem;
+    overflow: hidden;
+}
+.header-container figure{
+    margin-left: 5rem;
+    padding-top: 10px;
+    float: left;
+}
+.header-container nav ,.header-container  figure {
+    display: inline-block;
+}
+.header-container nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 0  0.2rem;
+    margin-right: 20px;
+}
+.header-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    
+
+    
+}
+.header-container nav{
+    float: right;
+    margin-top: 12px;
+    margin-right: 18px;
+}
+.clearfix{
+    clear: both;
+}
+.section-banner{
+    background-image: url(../img/banner-bg.jpg);
+    padding-top: 7rem;
+    background-size: cover;
+}
+.section-banner section{
+
+    display: inline-block;
+    width: 49%;
+}
+.section-artical{
+    vertical-align: top;
+}
+.image-robot{
+    max-width: 500px;
+}
+.section-artical{
+    color:#fff;
+    font-family: "Raleway";
+    padding:20px
+}
+.button-share
+{
+    background-color: #fff;
+    font-family: "Raleway";
+    border:none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.section-artical h3{
+    font-size: 2.6rem;
+     padding: 0.2rem 0;
+     
+  
+}
+.section-artical h3 , .section-artical p , .section-artical button {
+    /*margin-left: 2rem;*/
+    margin-left: 5rem;
+}
+.section-images h3 , .section-images h4{
+
+    text-align: center;
+    font-family: "Raleway";
+}
+.section-images h4{
+    margin-top: 0.8rem;
+}
+.section-images h3{
+    margin-top: 3rem;
+    font-size: 2.2rem;
+  
+}
+.section-images h4{
+    color:#aaa;
+}
+.section-images{
+    font-family:"Raleway" ;
+}
+.flex-container{
+    display: flex;
+     padding:1rem 6rem;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.flex-container >section{
+    margin: 0.4rem ;
+    width: 20%;
+}
+.flex-container >section figure img{
+    padding: 1.5rem 0;
+}
+.flex-container section {
+    
+    text-align: center;
+}
+.flex-container figcaption{
+    display: block;
+}
+.image-info,figcaption {
+    background-color: #f9f9ff;
+}
+.flex-container >section{
+    -webkit-box-shadow: 4px 1px 12px 1px #f4f4f4;
+	-moz-box-shadow: 4px 1px 12px 1px #f4f4f4;
+	box-shadow: 4px 1px 12px 1px #f4f4f4;
+}
+.figure-p{
+    padding: 0.5rem 0;
+}
+.figure-margin p{
+  padding: 10px;
+}
+.small-btn{
+    border: none;
+    outline: none;
+    width: 60%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 0.5rem;
+
+}
+.section-photo{
+    margin-top: 10rem;
+    font-family: "Raleway";
+}
+.section-photo aside{
+   width: 49%;
+   display: inline-block;
+
+}
+.section-photo aside img
+{
+   width: 100%;
+}
+.section-photo article{
+    width: 50%;
+    display: inline-block;
+    vertical-align: center;
+}
+.section-photo article h3,.section-photo article p{
+    padding-left: 1rem;
+}
+.section-photo article h3{
+    font-size: 40px;
+    padding-left: 1rem;
+}
+.section-photo article p
+{
+    margin-top: 1.2rem;
+    color:#aaa;
+}
+.section-feature{
+    background-image: url(../img/feature-bg.jpg);
+    background-size: cover;
+}
+.main-button{
+    border:none;
+    outline: none;
+    color:#fff;
+    padding:12px;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    background:linear-gradient(to right,#838fff, #d496ff );
+    margin-bottom: 10px;
+    
+}
+.section-video{
+    text-align: center;
+    padding:1rem;
+}
+.section-feature {
+    color: #fff;
+    text-align: center;
+    font-family: "Raleway";
+}
+.section-feature h2{
+    margin-top: 2rem;
+    padding-top: 3.5rem;
+   
+}
+.section-feature p{
+    padding-top:  20px;
+
+}
+.artical-flex{
+    display: flex;
+    padding:  6rem 6rem 0rem 6rem;
+}
+.artical-section{
+    width: 33%;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0.2rem;
+    
+}
+.artical-ele2{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.section-photos {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.section-photos figure {
+
+    padding: 6rem;
+}
+.blog-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding:6rem;
+}
+.blog-artical{
+    width: 49%;
+    
+}
+.responsive-image{
+    width:100%;
+}
+.blog-artical h3  {
+    font-size: 2rem;
+    font-family: "Raleway";
+}
+.blog-artical p{
+   font-family: "Raleway";
+   color:#aaa;
+}
+.bg-image{
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+}
+footer{
+    color: #fff;
+
+    font-family: "Raleway";
+    padding: 6rem;
+    justify-content: space-around;
+}
+.flex-box-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.end-copywrite{
+    display: block;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.top-product{
+    padding: 20px 0;
+}
+.nav-footer li{
+    padding: 3px 0;
+}
+.inputs{
+    margin-top: 20px;
+}
+.rounded-button{
+    border-radius: 10%;
+    padding:10px;
+    border: none;
+}
+.anchor-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding:10px;
+    width: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#fff;
+   
+    background-color: #000;
+
+}
+.end-copywrite{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.copywrite p{
+    padding-top: 1rem;
+
+}
+input[type='email']{
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.button-share:hover{
+    background-color: #000;
+    transition: 0.5s;
+    color:#fff;
+}
+.small-btn:hover
+{
+    background-color: #000;
+    transition: 0.5s;
+    color:#fff;
+}
+.main-button:hover{
+ background: linear-gradient(to right, #d496ff ,#424981);
+ transition: 0.5s;
+}
+@media only screen and (max-width: 80rem)
+{
+    .section-images h3{
+        padding:1rem
+    }
+    .end-copywrite{
+        flex-direction: column;
+    }
+    .end-copywrite{
+       flex-flow: column-reverse;
+    }
+    .links{
+        padding-top: 20px;
+    }
+    .flex-box-footer{
+        flex-direction: column;
+    }
+    .blog-section{
+        flex-direction: column;
+       
+    }
+    .blog-section .blog-artical{
+        width: 100%;
+    }
+    .section-photos{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-photos figure{
+        text-align: center;
+        padding:2rem;
+    }
+    .flex-container{
+        justify-content: space-around;
+        
+    }
+    .flex-container >section{
+        width: 100%;
+        margin: 3.1rem  0;
+    }
+}
+@media only screen and (max-width: 60rem) {
+    footer{
+        color: #fff;
+    
+        font-family: "Raleway";
+        padding: 2rem;
+        justify-content: space-around;
+    }
+    .flex-container{
+        padding: 2rem;
+    }
+    .blog-section{
+        padding: 1rem;
+    }
+    .artical-flex {
+        display: flex;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    .artical-flex{
+        flex-direction: column;
+        
+    }
+    .artical-section{
+        width: 100%;
+    }
+    .section-banner section{
+        width: 100%;
+        text-align: center;
+    }
+    .header-container nav{
+        margin-right: 0;
+    }
+    .image-robot{
+        max-width: 250px;
+        
+    }
+    .header-container nav{
+        display: none;
+    }
+    .section-image figure  {
+        text-align: center;
+    }
+
+    .section-artical h3 , .section-artical p , .section-artical button {
+        /*margin-left: 2rem;*/
+        margin-left: 2rem;
+    }
+
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container >section{
+        width: 100%;
+        margin: 3.1rem  0;
+    }
+    .section-photo article{
+        width: 100%;
+        display: block;
+    }
+
+    .section-photo aside{
+        width: 100%;
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 40rem) {
+    .section-banner section{
+        width: 100%;
+        text-align: center;
+    }
+    .header-container nav{
+        margin-right: 0;
+    }
+    .image-robot{
+        max-width: 250px;
+        
+    }
+    .header-container nav{
+        display: none;
+    }
+    .section-image figure  {
+        text-align: center;
+    }
+
+    .section-artical h3 , .section-artical p , .section-artical button {
+        /*margin-left: 2rem;*/
+        margin-left: 2rem;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container >section{
+        width: 100%;
+        margin: 3.1rem  0;
+    }
+    .section-photo article{
+        width: 100%;
+        display: block;
+    }
+
+    .section-photo aside{
+        width: 100%;
+        display: block;
+    }
+    
+}
+

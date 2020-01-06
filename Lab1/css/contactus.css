@@ -1,0 +1,116 @@
+.contact-us{
+    text-align: center;
+    color: #ffff;
+    font-size: 4rem;
+    padding:7rem;
+    font-family: "Raleway";
+}
+.map-container{
+    margin: 6rem;
+}
+.section-artical{
+  font-size: 1.5rem;
+  color:#6c5ce7;
+  padding-right: 6px;
+  width: 38%;
+  
+}
+.icon-fa{
+    padding: 0 10px ;
+}
+.info-add{
+    color:#aaa;
+    font-size: 16px;
+   
+}
+.section-artical article{
+   margin: 1.2rem 0;
+}
+.info-send{
+    display: flex;
+
+}
+.form-send input,.form-send textarea{
+display: block;
+padding: 10px;
+margin: 10px 0 ;
+}
+input{
+    width: 80%;
+    padding: 0.5rem;
+    margin: 10px 0;
+ 
+}
+textarea{
+    width: 100%;
+    height: 55%;
+    overflow-y: unset;
+    margin-top: 45px;
+    
+}
+.text-areabox{
+    width: 33%;
+    height: 30vh;
+    overflow-y: hidden;
+}
+.button-send{
+    float: right;
+    margin-right: 15px;
+}
+
+
+
+
+
+.text-container{
+    width: 25%;
+}
+form
+{
+    display: inline-flex;
+    width: 100%;
+}
+.section-artical article p{
+    margin-left: 3rem;
+}
+.form-control input:first-child{
+margin-top: 3rem;
+}
+@media(max-width:60rem){
+
+    .contact-us{
+        padding: 2rem 1rem;
+    }
+    .section-artical {
+        
+        width: 100%;
+        margin: 0;
+    }
+    .section-artical p {
+        margin-left: 1px;
+        font-size: 20px;
+    }
+   .section-artical article p{
+       margin-left: 0rem;
+       
+   }
+   form{
+       flex-direction: column;
+   }
+    .map-container{
+        margin: 0;
+    }
+    .info-send{
+        flex-direction: column;
+    }
+    .text-areabox{
+     width: 90%;
+    }
+    .form-control{
+        text-align: center;
+    }
+    textarea{
+        width: 90%;
+        margin: 15px;
+    }
+}

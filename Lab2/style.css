@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.elements-task{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.elements-task section{
+    width: 25%;
+    background-color: #aaaa;
+    margin: 20px;
+    text-align: center;
+    height: 90vh;
+}
+.elements-task section h2{
+    font-family: "Raleway";
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 20px;
+}
+.task-element{
+    background-color: #ffff;
+    color: #000000;
+    padding: 15px;
+    margin: 10px;
+    
+    
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <!-- <details>
+        <summary>
+            Open me
+        </summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis corrupti ut placeat eum ipsa praesentium tempora! Soluta provident, quas cum obcaecati aliquid quos quibusdam non in, amet quia rem eaque.</p>
+    </details> -->
+
+
+
+    
+<!-- <form onsubmit="handelSubmit(event)">
+    
+    
+        <input  list="browsers">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist> 
+      
+ 
+      
+    
+     <input type="text">
+    <button type="submit"  >send</button>
+    <button type="reset" >reset</button> 
+</form> -->
+         
+<!-- <form oninput="result.value=parseInt(val1.value)+parseInt(val2.value)">
+        <input type="text" name="val1" value="50" /> +
+        <input type="text" name="val2" value="10" /> =
+        <output name="result">60</output>
+ </form> -->
+
+ <!-- <form  action="about.html"
+        method="POST"
+        id="login"
+        > -->
+    <!-- <input type="email">
+    <input type="date" name="" id="">
+    <input type="color" name="" id=""> -->
+    <!-- <input type="text" name="" id="" 
+    placeholder='Enter your name'
+    required
+    autofocus>
+    <input type="range" name="" id="">
+    <input type="file" name="" id="">
+    <input type="number" name="" id="" value="2"
+            min='2' max="4"
+    
+    >
+ </form>
+  <button  type="submit" form="login">login</button> -->
+
+  <!-- <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video> -->
+      
+
+
+
+</section>
+<script>
+    // function handelSubmit(e) {
+    //     e.preventDefault();
+    //     console.log('submited')
+    // }
+
+
+    if( navigator.geolocation) {
+        console.log('support')
+        navigator.geolocation.getCurrentPosition(suceess ,error)
+    } else {
+        console.log('Not support')
+
+    }
+    function suceess(position) {
+console.log(position)
+    }
+
+    function error () {
+        console.log('error')
+    }
+</script>
+</body>
+</html>
